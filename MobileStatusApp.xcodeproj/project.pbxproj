@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1977862817206F004A87AB /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1977852817206F004A87AB /* Configuration.swift */; };
+		8E2EAFD728006E300044C6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EAFAE28006E2D0044C6A9 /* AppDelegate.swift */; };
+		8E2EAFDB28006E300044C6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2EAFB028006E300044C6A9 /* Assets.xcassets */; };
+		8E2EAFEE2800ABFA0044C6A9 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EAFEC2800ABFA0044C6A9 /* Encoding.swift */; };
+		8E2EAFF12800AD160044C6A9 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EAFEF2800AD160044C6A9 /* HttpClient.swift */; };
+		8E2EAFF42800B8A80044C6A9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EAFF22800B8A80044C6A9 /* Extensions.swift */; };
+		8E3C9D8A280739C700D6D204 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C9D89280739C700D6D204 /* AlertHelper.swift */; };
+		8E3C9D8D28073AED00D6D204 /* ModemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C9D8C28073AED00D6D204 /* ModemProvider.swift */; };
+		8E3C9D9328073E6C00D6D204 /* AppStatusBarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C9D9228073E6C00D6D204 /* AppStatusBarService.swift */; };
+		8E3C9D95280744D900D6D204 /* ModemDataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C9D94280744D900D6D204 /* ModemDataGetter.swift */; };
+		8EB2CC5A2801897300F0DD58 /* MobileModem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC582801897300F0DD58 /* MobileModem.swift */; };
+		8EB2CC5E280189F700F0DD58 /* AlcatelModem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC5C280189F700F0DD58 /* AlcatelModem.swift */; };
+		8EB2CC6128019C0300F0DD58 /* MobileSsids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC5F28019C0300F0DD58 /* MobileSsids.swift */; };
+		8EB2CC6428019CA600F0DD58 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC6228019CA600F0DD58 /* NetworkHelper.swift */; };
+		8EB2CC6A2801A1A100F0DD58 /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC682801A1A100F0DD58 /* NetworkObserver.swift */; };
+		8EB2CC702801B06000F0DD58 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC6E2801B06000F0DD58 /* AppService.swift */; };
+		8EB2CC762801B90F00F0DD58 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC742801B90F00F0DD58 /* Logger.swift */; };
+		8EB2CC792801C9FA00F0DD58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2CC772801C9FA00F0DD58 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E19778328171AA6004A87AB /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		8E19778428171C5B004A87AB /* MobileStatusApp--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MobileStatusApp--macOS--Info.plist"; sourceTree = "<group>"; };
+		8E1977852817206F004A87AB /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		8E2EAFAE28006E2D0044C6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E2EAFB028006E300044C6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2EAFBB28006E300044C6A9 /* MobileStatusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileStatusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2EAFBD28006E300044C6A9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8E2EAFEA280076DB0044C6A9 /* MobileStatusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobileStatusApp.entitlements; sourceTree = "<group>"; };
+		8E2EAFEC2800ABFA0044C6A9 /* Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		8E2EAFEF2800AD160044C6A9 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		8E2EAFF22800B8A80044C6A9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E3C9D89280739C700D6D204 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		8E3C9D8C28073AED00D6D204 /* ModemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModemProvider.swift; sourceTree = "<group>"; };
+		8E3C9D9228073E6C00D6D204 /* AppStatusBarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStatusBarService.swift; sourceTree = "<group>"; };
+		8E3C9D94280744D900D6D204 /* ModemDataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModemDataGetter.swift; sourceTree = "<group>"; };
+		8EB2CC582801897300F0DD58 /* MobileModem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileModem.swift; sourceTree = "<group>"; };
+		8EB2CC5C280189F700F0DD58 /* AlcatelModem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcatelModem.swift; sourceTree = "<group>"; };
+		8EB2CC5F28019C0300F0DD58 /* MobileSsids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileSsids.swift; sourceTree = "<group>"; };
+		8EB2CC6228019CA600F0DD58 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8EB2CC682801A1A100F0DD58 /* NetworkObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
+		8EB2CC6E2801B06000F0DD58 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		8EB2CC742801B90F00F0DD58 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		8EB2CC772801C9FA00F0DD58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2EAFB828006E300044C6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2EAFA828006E2D0044C6A9 = {
+			isa = PBXGroup;
+			children = (
+				8E19778428171C5B004A87AB /* MobileStatusApp--macOS--Info.plist */,
+				8E19778328171AA6004A87AB /* Secrets.xcconfig */,
+				8E2EAFEA280076DB0044C6A9 /* MobileStatusApp.entitlements */,
+				8E2EAFAD28006E2D0044C6A9 /* Shared */,
+				8E2EAFBC28006E300044C6A9 /* macOS */,
+				8E2EAFB628006E300044C6A9 /* Products */,
+				8EDD6DBC2803199A00D2D9E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2EAFAD28006E2D0044C6A9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8EB2CC772801C9FA00F0DD58 /* main.swift */,
+				8E2EAFAE28006E2D0044C6A9 /* AppDelegate.swift */,
+				8EB2CC5F28019C0300F0DD58 /* MobileSsids.swift */,
+				8E3C9D8E28073C1F00D6D204 /* Services */,
+				8E3C9D8B28073AD800D6D204 /* Provider */,
+				8E3C9D862807380600D6D204 /* Helpers */,
+				8EB2CC5B280189DD00F0DD58 /* Modems */,
+				8E2EAFB028006E300044C6A9 /* Assets.xcassets */,
+				8E2EAFF22800B8A80044C6A9 /* Extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8E2EAFB628006E300044C6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2EAFBB28006E300044C6A9 /* MobileStatusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2EAFBC28006E300044C6A9 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8E2EAFBD28006E300044C6A9 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		8E3C9D862807380600D6D204 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8EB2CC6228019CA600F0DD58 /* NetworkHelper.swift */,
+				8E2EAFEC2800ABFA0044C6A9 /* Encoding.swift */,
+				8E3C9D89280739C700D6D204 /* AlertHelper.swift */,
+				8E1977852817206F004A87AB /* Configuration.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8E3C9D8B28073AD800D6D204 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				8EB2CC742801B90F00F0DD58 /* Logger.swift */,
+				8EB2CC682801A1A100F0DD58 /* NetworkObserver.swift */,
+				8E2EAFEF2800AD160044C6A9 /* HttpClient.swift */,
+				8E3C9D8C28073AED00D6D204 /* ModemProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		8E3C9D8E28073C1F00D6D204 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8EB2CC6E2801B06000F0DD58 /* AppService.swift */,
+				8E3C9D9228073E6C00D6D204 /* AppStatusBarService.swift */,
+				8E3C9D94280744D900D6D204 /* ModemDataGetter.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8EB2CC5B280189DD00F0DD58 /* Modems */ = {
+			isa = PBXGroup;
+			children = (
+				8EB2CC582801897300F0DD58 /* MobileModem.swift */,
+				8EB2CC5C280189F700F0DD58 /* AlcatelModem.swift */,
+			);
+			path = Modems;
+			sourceTree = "<group>";
+		};
+		8EDD6DBC2803199A00D2D9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2EAFBA28006E300044C6A9 /* MobileStatusApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2EAFE128006E300044C6A9 /* Build configuration list for PBXNativeTarget "MobileStatusApp (macOS)" */;
+			buildPhases = (
+				8E2EAFB728006E300044C6A9 /* Sources */,
+				8E2EAFB828006E300044C6A9 /* Frameworks */,
+				8E2EAFB928006E300044C6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileStatusApp (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "AlcatelApp (macOS)";
+			productReference = 8E2EAFBB28006E300044C6A9 /* MobileStatusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2EAFA928006E2D0044C6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8E2EAFBA28006E300044C6A9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 8E2EAFAC28006E2D0044C6A9 /* Build configuration list for PBXProject "MobileStatusApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E2EAFA828006E2D0044C6A9;
+			packageReferences = (
+				8EDD6DB9280318FE00D2D9E5 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = 8E2EAFB628006E300044C6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2EAFBA28006E300044C6A9 /* MobileStatusApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E2EAFB928006E300044C6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2EAFDB28006E300044C6A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2EAFB728006E300044C6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3C9D9328073E6C00D6D204 /* AppStatusBarService.swift in Sources */,
+				8E3C9D95280744D900D6D204 /* ModemDataGetter.swift in Sources */,
+				8E2EAFF42800B8A80044C6A9 /* Extensions.swift in Sources */,
+				8EB2CC762801B90F00F0DD58 /* Logger.swift in Sources */,
+				8EB2CC6428019CA600F0DD58 /* NetworkHelper.swift in Sources */,
+				8E3C9D8A280739C700D6D204 /* AlertHelper.swift in Sources */,
+				8E2EAFEE2800ABFA0044C6A9 /* Encoding.swift in Sources */,
+				8EB2CC6128019C0300F0DD58 /* MobileSsids.swift in Sources */,
+				8E2EAFF12800AD160044C6A9 /* HttpClient.swift in Sources */,
+				8EB2CC792801C9FA00F0DD58 /* main.swift in Sources */,
+				8EB2CC5E280189F700F0DD58 /* AlcatelModem.swift in Sources */,
+				8E1977862817206F004A87AB /* Configuration.swift in Sources */,
+				8EB2CC702801B06000F0DD58 /* AppService.swift in Sources */,
+				8EB2CC5A2801897300F0DD58 /* MobileModem.swift in Sources */,
+				8E3C9D8D28073AED00D6D204 /* ModemProvider.swift in Sources */,
+				8E2EAFD728006E300044C6A9 /* AppDelegate.swift in Sources */,
+				8EB2CC6A2801A1A100F0DD58 /* NetworkObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E2EAFDC28006E300044C6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E19778328171AA6004A87AB /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E2EAFDD28006E300044C6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E19778328171AA6004A87AB /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8E2EAFE228006E300044C6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8DLB2JBSG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileStatusApp--macOS--Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinter.AlcatelApp;
+				PRODUCT_NAME = MobileStatusApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E2EAFE328006E300044C6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8DLB2JBSG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileStatusApp--macOS--Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinter.AlcatelApp;
+				PRODUCT_NAME = MobileStatusAPp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2EAFAC28006E2D0044C6A9 /* Build configuration list for PBXProject "MobileStatusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2EAFDC28006E300044C6A9 /* Debug */,
+				8E2EAFDD28006E300044C6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2EAFE128006E300044C6A9 /* Build configuration list for PBXNativeTarget "MobileStatusApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2EAFE228006E300044C6A9 /* Debug */,
+				8E2EAFE328006E300044C6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EDD6DB9280318FE00D2D9E5 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8E2EAFA928006E2D0044C6A9 /* Project object */;
+}

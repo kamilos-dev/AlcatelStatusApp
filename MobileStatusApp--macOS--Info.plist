@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PASSWORD</key>
+	<string>$(PASSWORD)</string>
+	<key>PHONE_NUMBERS</key>
+	<string>$(PHONE_NUMBERS)</string>
+	<key>SEND_SMS</key>
+	<string>$(SEND_SMS)</string>
+</dict>
+</plist>
